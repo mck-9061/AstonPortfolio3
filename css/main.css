@@ -1,0 +1,111 @@
+#nav-bar {
+    background-color: #2c2c2c;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.main-header {
+    background-color: #424242;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main-header a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px;
+    color: #ffeffd
+}
+
+.main-header a:hover {
+    background-color: #000000;
+}
+
+h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.row img {
+    width: 150px;
+    height: 150px
+}
+
+.row {
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+}
+
+#founders a {
+    text-decoration: none;
+}
+
+
+.skills {
+    text-align: center;
+}
+
+.skills img {
+    width: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+.project_image_large {
+    width: auto;
+    height: 100px
+}
+
+#contact-form {
+    text-align: center;
+    align-items: center;
+}
+
+.text-area {
+    resize: none;
+    width: available;
+    transform: translateY(5px);
+}
+
+#message {
+    background-color: #9fb4ff;
+}
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    border: none;
+    text-align: left;
+    outline: none;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.coll-active, .collapsible:hover {
+    background-color: #ccc;
+}
+
+.collapse-content {
+    padding: 0 18px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
